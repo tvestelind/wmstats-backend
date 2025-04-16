@@ -20,6 +20,7 @@ executable wmstats-backend
                  , servant-server
                  , warp
                  , wai
+                 , wai-cors
                  , aeson
                  , text
     hs-source-dirs: app
